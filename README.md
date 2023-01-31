@@ -17,7 +17,7 @@ https://github.com/spring-projects/spring-batch/wiki/Spring-Batch-5.0-Migration-
     <artifactId>spring-boot-starter-batch</artifactId>
 </dependency>
 ```
-* Required: Include h2 dependency or any other relational database
+* Required: Include a implementation JDBC (Database H2)
 
 ### Step: Job and Step Configuration
 
