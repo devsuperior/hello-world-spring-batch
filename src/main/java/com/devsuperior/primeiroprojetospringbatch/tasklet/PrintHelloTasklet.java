@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 @StepScope
 public class PrintHelloTasklet implements Tasklet {
 	
-	@Value("#{jobParameters['nome']}")
+	@Value("${nome}")
     private String nome;
 
 	@Override
